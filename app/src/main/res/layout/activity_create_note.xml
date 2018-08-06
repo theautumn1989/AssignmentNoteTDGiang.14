@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_create_note"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_activity"
+    tools:context=".activity.CreateNoteActivity">
+
+    <TextView
+        android:id="@+id/tv_time_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="@dimen/textsize_datetime" />
+
+    <LinearLayout
+        android:id="@+id/ll_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_title"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="@dimen/edt_textsize_title" />
+
+        <EditText
+            android:id="@+id/edt_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:hint="@string/hint_content"
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:lines="3"
+            android:maxLines="3"
+            android:singleLine="false"
+            android:textSize="@dimen/textsize_edt_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_calender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_5dp">
+
+        <ImageButton
+            android:id="@+id/ibtn_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/magin_10dp"
+            android:layout_marginTop="@dimen/padding_10dp"
+            android:background="@null"
+            android:src="@drawable/ic_alarm" />
+
+        <LinearLayout
+            android:id="@+id/ll_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/magin_30dp"
+            android:layout_marginTop="@dimen/magin_5dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtn_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_calendar" />
+
+            <Spinner
+                android:id="@+id/spn_Date"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="@dimen/layout_height_100dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/magin_30dp"
+            android:layout_marginTop="@dimen/magin_5dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtn_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_clock" />
+
+            <Spinner
+                android:id="@+id/spn_time"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="@dimen/layout_width_100dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/ibtn_clear_datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_remove" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/magin_10dp">
+
+            <ImageView
+                android:id="@+id/iv_note"
+                android:layout_width="@dimen/layout_width_120dp"
+                android:layout_height="@dimen/layout_height_120dp" />
+
+            <ImageButton
+                android:id="@+id/ibtn_clear_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/magin_30dp"
+                android:layout_toEndOf="@id/iv_note"
+                android:layout_toRightOf="@+id/iv_note"
+                android:background="@null"
+                android:src="@drawable/ic_remove" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

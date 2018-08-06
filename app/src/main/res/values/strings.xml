@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="facebook_app_id">1096887197125375</string>
+    <string name="fb_login_protocol_scheme">fb1096887197125375</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_content">Content</string>
+    <string name="take_photo">Take Photo</string>
+
+    <string name="camera">camera</string>
+    <string name="item_title">title</string>
+    <string name="item_timenow">timenow</string>
+    <string name="menu_title_color">color</string>
+    <string name="menu_image">image</string>
+    <string name="menu_save_note">save note</string>
+    <string name="menu_delete_note">delete note</string>
+
+    <string name="menu_add_note">Add Note</string>
+    <string name="color_white">#F5F5F5</string>
+    <string name="color_blue">#81D4FA</string>
+    <string name="color_yellow">#FFEB3B</string>
+    <string name="color_orange">#FFA000</string>
+    <string name="dialog_title_image">Image</string>
+    <string name="picture">picture</string>
+    <string name="permissions">You don\'t have permission to access file location!</string>
+    <string name="title_create">Create</string>
+    <string name="please_input_title_and_content">Please input Title and content !</string>
+    <string name="please_select_time">please select time after current time !</string>
+    <string name="saved">Saved</string>
+    <string name="title_color">Color</string>
+    <string name="editede">Edited</string>
+    <string name="color_whilte">#F5F5F5</string>
+    <string name="s">Image</string>
+
+</resources>

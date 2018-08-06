@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_activity">16dp</dimen>
+    <dimen name="textsize_datetime">12sp</dimen>
+    <dimen name="edt_textsize_title">25sp</dimen>
+    <dimen name="textsize_edt_content">18sp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="magin_10dp">10dp</dimen>
+    <dimen name="magin_30dp">30dp</dimen>
+    <dimen name="magin_5dp">5dp</dimen>
+    <dimen name="layout_height_60dp">60dp</dimen>
+    <dimen name="layout_height_120dp">120dp</dimen>
+    <dimen name="layout_width_120dp">120dp</dimen>
+    <dimen name="layout_height_100dp">100dp</dimen>
+    <dimen name="layout_width_100dp">100dp</dimen>
+    <dimen name="layout_width_0dp">0dp</dimen>
+    <dimen name="layout_magin_3dp">3dp</dimen>
+    <dimen name="textsize_18dp">18sp</dimen>
+    <dimen name="textsize_14dp">14sp</dimen>
+    <dimen name="layout_magin_6dp">6dp</dimen>
+</resources>

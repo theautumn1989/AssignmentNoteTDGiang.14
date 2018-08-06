@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar_title">#ffffff</color>
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#607D8B</color>
+    <color name="coclor_backgoud_main">#E0E0E0</color>
+    <color name="color_backgoud_dialog_color">#EEEEEE</color>
+    <color name="color_backgound_camera">#E0E0E0</color>
+    <color name="color_backgound_item">#F5F5F5</color>
+</resources>
